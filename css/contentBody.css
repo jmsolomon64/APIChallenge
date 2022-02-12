@@ -1,0 +1,41 @@
+#contentBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
+.contentCard{
+    height: 550px;
+    width: 350px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contentImage {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    background-size: cover;
+    filter: blur(8px);
+}
+
+.contentCard h2, .contentCard p {
+    color: whitesmoke;
+    margin: 15px;
+}
+
+.contentCard:hover{
+    background-color: rgb(31, 53, 53);
+    transform: scale(1.10);
+    z-index: 1;
+    transition: all 1s ease;
+}
+
+.contentCard:hover .contentImage {
+    filter: blur(0px);
+    transition: all 1s ease;
+}
+
+
