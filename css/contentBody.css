@@ -25,6 +25,13 @@
     color: whitesmoke;
     margin: 15px;
 }
+.contentCard h2 {
+    font-size: 20px;
+}
+
+.contentCard p {
+    font-size: 14px;
+}
 
 .contentCard:hover{
     background-color: rgb(31, 53, 53);
@@ -38,4 +45,11 @@
     transition: all 1s ease;
 }
 
+#buttonZone{
+    display: flex;
+    padding-top:  150px;
+    height: 25px;
+    width: 100%;
+    justify-content: center;
+}
 

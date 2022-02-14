@@ -29,7 +29,7 @@ function displayMovies(json){
 
         let descript = document.createElement("p");
         card.appendChild(descript);
-        descript.innerText = `${json[i].description}`
+        descript.innerText = `${json[i].release_date}`
     }
 } 
 
