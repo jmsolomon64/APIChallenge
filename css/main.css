@@ -1,9 +1,11 @@
 @import "./header.css";
 @import "./jumbotron.css";
 @import "./contentBody.css";
+@import "./collection.css";
 
 body {
     background-color: rgb(24, 39, 39);
     margin: 0;
     font-family: 'Playfair Display', serif;
 }
+
