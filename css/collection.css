@@ -20,6 +20,11 @@
 
 .movie {
     color: whitesmoke;
+    border: 1px solid black ;
+    padding: 10px;
+    background-color: rgb(17, 28, 28);
+    border-radius: 5px;
+    
 }
 
 #id h2 {
@@ -27,7 +32,8 @@
 }
 
 .movie.dragging {
-    color: rebeccapurple;
+    color: rgb(183, 253, 253);
+    opacity: .4;
 }
 
 #collectionContainer{
@@ -41,5 +47,11 @@
     margin: 10px;
     display: flex;
     flex-direction: column;
+}
+
+#clear {
+    margin-left: 200px;
+    height: 55px;
+    width: 160px;
 }
 

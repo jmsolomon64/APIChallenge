@@ -53,3 +53,11 @@
     justify-content: center;
 }
 
+.randomCard {
+    filter: blur(0px);
+}
+
+h3 {
+    color: whitesmoke;
+    margin-left: 15px;
+}

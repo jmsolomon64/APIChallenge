@@ -2,6 +2,7 @@
 @import "./jumbotron.css";
 @import "./contentBody.css";
 @import "./collection.css";
+@import "./library.css";
 
 body {
     background-color: rgb(24, 39, 39);

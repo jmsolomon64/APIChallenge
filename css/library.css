@@ -1,0 +1,44 @@
+#libraryWrapper {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding-top: 100px;
+}
+
+#libraryCatalog {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+#article {
+    display: flex;
+    padding-top: 90px;
+}
+
+.libraryCard {
+    height: 50%;
+    width: 96%;
+    background-color: rgb(17, 28, 28);
+    margin: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.articleImg {
+    height: 90%;
+    width: 60%;
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.movie {
+    margin: 5px;
+}
+
+.ltext {
+    color: whitesmoke;
+}

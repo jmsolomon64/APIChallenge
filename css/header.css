@@ -6,6 +6,7 @@ header {
     z-index: 2;
     border-radius: 10px;
     display: flex;
+    border: 2px solid black;
 }
 
 header h1 {
@@ -22,4 +23,10 @@ header ul {
     list-style-type: none;
     position: absolute;
     right: 20px;
+    
+}
+
+.home {
+    text-decoration: none;
+    color: whitesmoke;
 }

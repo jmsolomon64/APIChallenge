@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Movie Randomizer</title>
+    <title>Library</title>
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
             <li>
                 <a href="./whatToWatch.html" class="navButton">Movie Selector</a>
             </li>
-            <li>
+            <li>                                   
                 <a href="./movies.html" class="navButton">Movies</a>
             </li>
             <li>
@@ -28,13 +28,26 @@
             </li>
         </ul>
     </header>
-    
-    <div id="buttonZone">
-        <button id="randomizer">Random movie</button>
-    </div>
-    
-    <section id="contentBody">
+    <section id="libraryWrapper" >
+        <div id="libraryCatalog">
+            <div id="search">
+                <h2>Movie Search</h2>
+                <input type="text" id="searchInput" placeholder="Search">
+            </div>
+        </div>
+        <div id="article">
+            <div class="libraryCard ltext">
+                <img class="articleImg ltext"/>
+                <div class="articleText ltext">
+                    <h2 class="articleTitle ltext"></h2>
+                    <h3 class="libraryDate ltext"></h3>
+                    <h3 class="librarydirector ltext"></h3>
+                    <p class="description ltext"></p>
+                </div>
+            </div>
+        </div>
     </section>
-    <script src="../javascript/random.js"></script>
+
+    <script src="../javascript/library.js"></script>
 </body>
 </html>

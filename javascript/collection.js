@@ -11,8 +11,8 @@ getMovies();
 for (let i = 0; i < containers.length; i++){
     containers[i].addEventListener("dragover", e => {
         e.preventDefault(); //allows drop cursor to appear
-        let draggable = document.querySelector(".dragging");
-        containers[i].appendChild(draggable);
+        let draggable = document.querySelector(".dragging");// references element with class dragging
+        containers[i].appendChild(draggable); 
     })
 }
 
@@ -36,6 +36,7 @@ clearButton.addEventListener("click", (event) => { //event listener declared for
         title.style.display = "none";
     }
     searchInput.value = "";
+    location.reload();
 })
 
 async function getMovies() { //function for fetching movies
